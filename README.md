@@ -11,6 +11,8 @@ This repository contains all code, images, and references used for building the 
 - [**Widgets**](./README.md#widgets)
 - [**Functions**](./README.md#functions)
 - [**Visualizations**](./README.md#visualizations)
+- [**Differential Expression Analysis Module**](./README.md#differential-expression-analysis-module)
+- [**Custom Groupings Module**](./README.md#custom-groupings-module)
 
 ## Dependencies
 
