@@ -59,7 +59,7 @@ Finally once you have everything installed, you need to install the  ODBC Driver
 
 To test if everything runs correctly, we reccomend quickly running the following command: 
 
-`panel serve multi-page.py`
+`panel serve main.py`
 
 It should open you to the local web-page version of the tool on the website. If you reach the tool page, then you have successfully installed the development environment. 
 
