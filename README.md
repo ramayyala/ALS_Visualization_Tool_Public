@@ -1,7 +1,7 @@
 # ANSWER ALS VISUALIZATION TOOL 
 This is the github repository for the Answer ALS Visualization tool. 
 This repository contains all code, images, and references used for building the tool. All data is stored seperately on the SQL Server.
-
+**NOTE**: The code in this repository is currently nonfunctional, as all relevant API keys and sensitive information have been removed. This repository is provided solely to showcase the code’s structure and approach.
 ## Table of Contents 
 - [**Dependencies**](./README.md#dependencies)
 - [**Getting Started**](./README.md#getting-started)
