@@ -129,7 +129,8 @@ This widget uses the [ColorPicker widget](https://panel.holoviz.org/reference/wi
 
 This widget uses the [ColorPicker widget](https://panel.holoviz.org/reference/widgets/ColorPicker.html "ColorPicker") to allow the usee to select which color they wish negative values to appear as on a plot. By default, it is set to visualize positive values as blue (hex:#1e7333). The user is allowed to select any color via the eye dropper tool included in the widget or by manually input the RGB values.
 
-## Functions
+## Callback Functions
+These are callback functions that define the backend behavior when a certain widget or button is clicked. These functions are all located in the utils.py script in the modules folder. 
 
 #### **\_update\_input:**
 
@@ -168,9 +169,9 @@ This function is where we formally define all of the normalization options and t
 - **Quantile Norm**
   - This option allows users to perform a Quantile normalization on the data. This normalization is carrioud out by sorting the data, then calculating the mean, and then using the rank function of dataframes in pandas, with method set to min.
 
-#### SQL Querying
+### SQL Querying
 
-SQL querying works using ODBC Driver 17 for SQL Server provided by Microsoft. You need to make sure you have this installed prior to running, otherwise you will not have access to the data. We use the pyodbc package here to connect the code to the SQL database.
+SQL querying works using ODBC Driver 17 for SQL Server provided by Microsoft. You need to make sure you have this installed prior to running, otherwise you will not have access to the data. We use the pyodbc package here to connect the code to the SQL database. All of these functions are located in the sql.py file in the modules folder. 
 
 #### **tpm\_sql\_query:**
 
@@ -193,6 +194,7 @@ This function queries the proteomics data from the protein\_level database.
 This function queries the differentially expressed data for proteomics data from the protein\_de sql database.
 
 ## Visualizations
+Each visualization has its own module folder within the modules folder. Within each folder lies the respective callbacks, widgets and unique sidebar panel if there is one for each visualization. 
 
 #### **clustermap:**
 
